@@ -33,15 +33,15 @@
 // Question: "If myString is 'Hello', what is the string after changing the character at index 2 to 'x'?"
 // Output: Helxo
 
-// let myString = 'Hello';
-// myString[2]="x";
-// console.log('4th ans',myString);//4th ans Hello
+let myString = 'Hello';
+myString[2]="x";
+console.log('4th ans',myString);//4th ans Hello
 
-// let convertedArray=myString.split("");
-// convertedArray[2]="x";
-// console.log("4th converted ans",convertedArray)//4th converted ans [ 'H', 'e', 'x', 'l', 'o' ]
-// myString=convertedArray.join('');
-// console.log('4th ans after joing',myString);//4th ans Hello
+let convertedArray=myString.split("");
+convertedArray[2]="x";
+console.log("4th converted ans",convertedArray)//4th converted ans [ 'H', 'e', 'x', 'l', 'o' ]
+myString=convertedArray.join('');
+console.log('4th ans after joing',myString);//4th ans Hello
 
 // ==============================
 
